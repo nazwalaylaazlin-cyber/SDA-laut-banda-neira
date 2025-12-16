@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SDA Laut Banda Neira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sumber Daya Alam Laut Banda Neira</h1>
+    <p>Keindahan & Kekayaan Laut Maluku</p>
+</header>
+
+<!-- LOGIN -->
+<div class="login-box" id="loginBox">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p><small>Username: admin | Password: admin</small></p>
+</div>
+
+<!-- KONTEN -->
+<div id="content">
+    <nav>
+        <a href="#deskripsi">Deskripsi</a>
+        <a href="#flora">Flora</a>
+        <a href="#fauna">Fauna</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card" id="deskripsi">
+            <h2>Deskripsi Laut Banda Neira</h2>
+            <p>
+                Laut Banda Neira terletak di Provinsi Maluku dan memiliki keanekaragaman hayati
+                laut yang sangat tinggi. Perairannya kaya akan terumbu karang, ikan langka,
+                serta menjadi salah satu laut terdalam di Indonesia.
+            </p>
+        </div>
+
+        <div class="card" id="flora">
+            <h2>Flora Laut Banda Neira</h2>
+            <div class="flora-fauna">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Coral_reef.jpg">
+                    <h3>Terumbu Karang</h3>
+                    <p>Terumbu karang menjadi habitat utama berbagai biota laut.</p>
+                </div>
+
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Seagrass_meadow.jpg">
+                    <h3>Lamun</h3>
+                    <p>Lamun berfungsi sebagai tempat berkembang biak ikan.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="fauna">
+            <h2>Fauna Laut Banda Neira</h2>
+            <div class="flora-fauna">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Scalloped_hammerhead.jpg">
+                    <h3>Hiu Martil</h3>
+                    <p>Predator laut yang menjaga keseimbangan ekosistem.</p>
+                </div>
+
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Napoleon_wrasse.jpg">
+                    <h3>Ikan Napoleon</h3>
+                    <p>Ikan karang besar yang dilindungi.</p>
+                </div>
+
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Green_turtle_swimming.jpg">
+                    <h3>Penyu Hijau</h3>
+                    <p>Penyu yang sering bermigrasi di Laut Banda.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 | SDA Laut Banda Neira</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
